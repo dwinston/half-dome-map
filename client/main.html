@@ -1,0 +1,19 @@
+<head>
+  <title>half-dome-map-app</title>
+</head>
+
+<body>
+  {{> hello}}
+  {{> map}}
+</body>
+
+<template name="hello">
+  <h1>Hello!</h1>
+  <p>Welcome to the Half Dome Map App</p>
+</template>
+
+<template name="map">
+  {{#constant}}
+    <div id="map"></div>
+  {{/constant}}
+</template>
